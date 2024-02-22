@@ -12,11 +12,11 @@ import (
 
 	db "github.com/tendermint/tm-db"
 
-	abci "github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/libs/pubsub/query"
-	tmrand "github.com/tendermint/tendermint/libs/rand"
-	"github.com/tendermint/tendermint/state/txindex"
-	"github.com/tendermint/tendermint/types"
+	abci "github.com/leftecnu/tendermint/abci/types"
+	"github.com/leftecnu/tendermint/libs/pubsub/query"
+	tmrand "github.com/leftecnu/tendermint/libs/rand"
+	"github.com/leftecnu/tendermint/state/txindex"
+	"github.com/leftecnu/tendermint/types"
 )
 
 func TestTxIndex(t *testing.T) {

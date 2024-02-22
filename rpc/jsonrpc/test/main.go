@@ -5,10 +5,10 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/tendermint/tendermint/libs/log"
-	tmos "github.com/tendermint/tendermint/libs/os"
-	rpcserver "github.com/tendermint/tendermint/rpc/jsonrpc/server"
-	rpctypes "github.com/tendermint/tendermint/rpc/jsonrpc/types"
+	"github.com/leftecnu/tendermint/libs/log"
+	tmos "github.com/leftecnu/tendermint/libs/os"
+	rpcserver "github.com/leftecnu/tendermint/rpc/jsonrpc/server"
+	rpctypes "github.com/leftecnu/tendermint/rpc/jsonrpc/types"
 )
 
 var routes = map[string]*rpcserver.RPCFunc{

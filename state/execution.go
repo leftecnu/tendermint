@@ -5,15 +5,15 @@ import (
 	"fmt"
 	"time"
 
-	abci "github.com/tendermint/tendermint/abci/types"
-	cryptoenc "github.com/tendermint/tendermint/crypto/encoding"
-	"github.com/tendermint/tendermint/libs/fail"
-	"github.com/tendermint/tendermint/libs/log"
-	mempl "github.com/tendermint/tendermint/mempool"
-	tmstate "github.com/tendermint/tendermint/proto/tendermint/state"
-	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
-	"github.com/tendermint/tendermint/proxy"
-	"github.com/tendermint/tendermint/types"
+	abci "github.com/leftecnu/tendermint/abci/types"
+	cryptoenc "github.com/leftecnu/tendermint/crypto/encoding"
+	"github.com/leftecnu/tendermint/libs/fail"
+	"github.com/leftecnu/tendermint/libs/log"
+	mempl "github.com/leftecnu/tendermint/mempool"
+	tmstate "github.com/leftecnu/tendermint/proto/tendermint/state"
+	tmproto "github.com/leftecnu/tendermint/proto/tendermint/types"
+	"github.com/leftecnu/tendermint/proxy"
+	"github.com/leftecnu/tendermint/types"
 )
 
 //-----------------------------------------------------------------------------

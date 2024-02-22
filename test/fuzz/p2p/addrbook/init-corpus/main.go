@@ -9,8 +9,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/tendermint/tendermint/crypto/ed25519"
-	"github.com/tendermint/tendermint/p2p"
+	"github.com/leftecnu/tendermint/crypto/ed25519"
+	"github.com/leftecnu/tendermint/p2p"
 )
 
 func main() {

@@ -14,14 +14,14 @@ import (
 
 	"github.com/gogo/protobuf/proto"
 
-	flow "github.com/tendermint/tendermint/libs/flowrate"
-	"github.com/tendermint/tendermint/libs/log"
-	tmmath "github.com/tendermint/tendermint/libs/math"
-	"github.com/tendermint/tendermint/libs/protoio"
-	"github.com/tendermint/tendermint/libs/service"
-	tmsync "github.com/tendermint/tendermint/libs/sync"
-	"github.com/tendermint/tendermint/libs/timer"
-	tmp2p "github.com/tendermint/tendermint/proto/tendermint/p2p"
+	flow "github.com/leftecnu/tendermint/libs/flowrate"
+	"github.com/leftecnu/tendermint/libs/log"
+	tmmath "github.com/leftecnu/tendermint/libs/math"
+	"github.com/leftecnu/tendermint/libs/protoio"
+	"github.com/leftecnu/tendermint/libs/service"
+	tmsync "github.com/leftecnu/tendermint/libs/sync"
+	"github.com/leftecnu/tendermint/libs/timer"
+	tmp2p "github.com/leftecnu/tendermint/proto/tendermint/p2p"
 )
 
 const (

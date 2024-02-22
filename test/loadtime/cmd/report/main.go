@@ -11,8 +11,8 @@ import (
 
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/tendermint/tendermint/store"
-	"github.com/tendermint/tendermint/test/loadtime/report"
+	"github.com/leftecnu/tendermint/store"
+	"github.com/leftecnu/tendermint/test/loadtime/report"
 )
 
 var (

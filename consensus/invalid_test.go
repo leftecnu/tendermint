@@ -3,13 +3,13 @@ package consensus
 import (
 	"testing"
 
-	"github.com/tendermint/tendermint/libs/bytes"
-	"github.com/tendermint/tendermint/libs/log"
-	tmrand "github.com/tendermint/tendermint/libs/rand"
-	"github.com/tendermint/tendermint/p2p"
-	tmcons "github.com/tendermint/tendermint/proto/tendermint/consensus"
-	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
-	"github.com/tendermint/tendermint/types"
+	"github.com/leftecnu/tendermint/libs/bytes"
+	"github.com/leftecnu/tendermint/libs/log"
+	tmrand "github.com/leftecnu/tendermint/libs/rand"
+	"github.com/leftecnu/tendermint/p2p"
+	tmcons "github.com/leftecnu/tendermint/proto/tendermint/consensus"
+	tmproto "github.com/leftecnu/tendermint/proto/tendermint/types"
+	"github.com/leftecnu/tendermint/types"
 )
 
 //----------------------------------------------

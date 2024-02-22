@@ -11,14 +11,14 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/tendermint/tendermint/crypto"
-	"github.com/tendermint/tendermint/crypto/ed25519"
-	"github.com/tendermint/tendermint/libs/bytes"
-	"github.com/tendermint/tendermint/libs/log"
-	"github.com/tendermint/tendermint/proto/tendermint/p2p"
+	"github.com/leftecnu/tendermint/crypto"
+	"github.com/leftecnu/tendermint/crypto/ed25519"
+	"github.com/leftecnu/tendermint/libs/bytes"
+	"github.com/leftecnu/tendermint/libs/log"
+	"github.com/leftecnu/tendermint/proto/tendermint/p2p"
 
-	"github.com/tendermint/tendermint/config"
-	tmconn "github.com/tendermint/tendermint/p2p/conn"
+	"github.com/leftecnu/tendermint/config"
+	tmconn "github.com/leftecnu/tendermint/p2p/conn"
 )
 
 func TestPeerBasic(t *testing.T) {

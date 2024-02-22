@@ -38,8 +38,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/tendermint/tendermint/libs/service"
-	tmsync "github.com/tendermint/tendermint/libs/sync"
+	"github.com/leftecnu/tendermint/libs/service"
+	tmsync "github.com/leftecnu/tendermint/libs/sync"
 )
 
 type operation int

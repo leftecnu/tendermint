@@ -23,10 +23,10 @@ implementation.
 import (
 	"context"
 
-	"github.com/tendermint/tendermint/libs/bytes"
-	"github.com/tendermint/tendermint/libs/service"
-	ctypes "github.com/tendermint/tendermint/rpc/core/types"
-	"github.com/tendermint/tendermint/types"
+	"github.com/leftecnu/tendermint/libs/bytes"
+	"github.com/leftecnu/tendermint/libs/service"
+	ctypes "github.com/leftecnu/tendermint/rpc/core/types"
+	"github.com/leftecnu/tendermint/types"
 )
 
 // Client wraps most important rpc calls a client would make if you want to

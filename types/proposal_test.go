@@ -9,10 +9,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/tendermint/tendermint/crypto/tmhash"
-	"github.com/tendermint/tendermint/libs/protoio"
-	tmrand "github.com/tendermint/tendermint/libs/rand"
-	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
+	"github.com/leftecnu/tendermint/crypto/tmhash"
+	"github.com/leftecnu/tendermint/libs/protoio"
+	tmrand "github.com/leftecnu/tendermint/libs/rand"
+	tmproto "github.com/leftecnu/tendermint/proto/tendermint/types"
 )
 
 var (

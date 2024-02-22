@@ -3,10 +3,10 @@ package proxy
 import (
 	"fmt"
 
-	abcicli "github.com/tendermint/tendermint/abci/client"
-	tmlog "github.com/tendermint/tendermint/libs/log"
-	tmos "github.com/tendermint/tendermint/libs/os"
-	"github.com/tendermint/tendermint/libs/service"
+	abcicli "github.com/leftecnu/tendermint/abci/client"
+	tmlog "github.com/leftecnu/tendermint/libs/log"
+	tmos "github.com/leftecnu/tendermint/libs/os"
+	"github.com/leftecnu/tendermint/libs/service"
 )
 
 const (

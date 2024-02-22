@@ -7,14 +7,14 @@ import (
 
 	"github.com/gogo/protobuf/proto"
 
-	"github.com/tendermint/tendermint/behaviour"
-	bc "github.com/tendermint/tendermint/blockchain"
-	"github.com/tendermint/tendermint/libs/log"
-	tmsync "github.com/tendermint/tendermint/libs/sync"
-	"github.com/tendermint/tendermint/p2p"
-	bcproto "github.com/tendermint/tendermint/proto/tendermint/blockchain"
-	"github.com/tendermint/tendermint/state"
-	"github.com/tendermint/tendermint/types"
+	"github.com/leftecnu/tendermint/behaviour"
+	bc "github.com/leftecnu/tendermint/blockchain"
+	"github.com/leftecnu/tendermint/libs/log"
+	tmsync "github.com/leftecnu/tendermint/libs/sync"
+	"github.com/leftecnu/tendermint/p2p"
+	bcproto "github.com/leftecnu/tendermint/proto/tendermint/blockchain"
+	"github.com/leftecnu/tendermint/state"
+	"github.com/leftecnu/tendermint/types"
 )
 
 const (

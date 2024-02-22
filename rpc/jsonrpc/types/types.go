@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"strings"
 
-	tmjson "github.com/tendermint/tendermint/libs/json"
+	tmjson "github.com/leftecnu/tendermint/libs/json"
 )
 
 // a wrapper to emulate a sum type: jsonrpcid = string | int

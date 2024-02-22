@@ -9,10 +9,10 @@ import (
 	"golang.org/x/net/netutil"
 
 	"github.com/gogo/protobuf/proto"
-	"github.com/tendermint/tendermint/crypto"
-	"github.com/tendermint/tendermint/libs/protoio"
-	"github.com/tendermint/tendermint/p2p/conn"
-	tmp2p "github.com/tendermint/tendermint/proto/tendermint/p2p"
+	"github.com/leftecnu/tendermint/crypto"
+	"github.com/leftecnu/tendermint/libs/protoio"
+	"github.com/leftecnu/tendermint/p2p/conn"
+	tmp2p "github.com/leftecnu/tendermint/proto/tendermint/p2p"
 )
 
 const (

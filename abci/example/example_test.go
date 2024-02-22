@@ -15,14 +15,14 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/tendermint/tendermint/libs/log"
-	tmnet "github.com/tendermint/tendermint/libs/net"
+	"github.com/leftecnu/tendermint/libs/log"
+	tmnet "github.com/leftecnu/tendermint/libs/net"
 
-	abcicli "github.com/tendermint/tendermint/abci/client"
-	"github.com/tendermint/tendermint/abci/example/code"
-	"github.com/tendermint/tendermint/abci/example/kvstore"
-	abciserver "github.com/tendermint/tendermint/abci/server"
-	"github.com/tendermint/tendermint/abci/types"
+	abcicli "github.com/leftecnu/tendermint/abci/client"
+	"github.com/leftecnu/tendermint/abci/example/code"
+	"github.com/leftecnu/tendermint/abci/example/kvstore"
+	abciserver "github.com/leftecnu/tendermint/abci/server"
+	"github.com/leftecnu/tendermint/abci/types"
 )
 
 func init() {

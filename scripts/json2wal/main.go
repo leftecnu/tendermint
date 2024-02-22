@@ -14,9 +14,9 @@ import (
 	"os"
 	"strings"
 
-	cs "github.com/tendermint/tendermint/consensus"
-	tmjson "github.com/tendermint/tendermint/libs/json"
-	"github.com/tendermint/tendermint/types"
+	cs "github.com/leftecnu/tendermint/consensus"
+	tmjson "github.com/leftecnu/tendermint/libs/json"
+	"github.com/leftecnu/tendermint/types"
 )
 
 func main() {

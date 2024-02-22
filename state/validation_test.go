@@ -8,16 +8,16 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	abci "github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/crypto/ed25519"
-	"github.com/tendermint/tendermint/crypto/tmhash"
-	"github.com/tendermint/tendermint/libs/log"
-	memmock "github.com/tendermint/tendermint/mempool/mock"
-	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
-	sm "github.com/tendermint/tendermint/state"
-	"github.com/tendermint/tendermint/state/mocks"
-	"github.com/tendermint/tendermint/types"
-	tmtime "github.com/tendermint/tendermint/types/time"
+	abci "github.com/leftecnu/tendermint/abci/types"
+	"github.com/leftecnu/tendermint/crypto/ed25519"
+	"github.com/leftecnu/tendermint/crypto/tmhash"
+	"github.com/leftecnu/tendermint/libs/log"
+	memmock "github.com/leftecnu/tendermint/mempool/mock"
+	tmproto "github.com/leftecnu/tendermint/proto/tendermint/types"
+	sm "github.com/leftecnu/tendermint/state"
+	"github.com/leftecnu/tendermint/state/mocks"
+	"github.com/leftecnu/tendermint/types"
+	tmtime "github.com/leftecnu/tendermint/types/time"
 )
 
 const validationTestsStopHeight int64 = 10

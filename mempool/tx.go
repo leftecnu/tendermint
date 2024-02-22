@@ -1,7 +1,7 @@
 package mempool
 
 import (
-	"github.com/tendermint/tendermint/p2p"
+	"github.com/leftecnu/tendermint/p2p"
 )
 
 // TxInfo are parameters that get passed when attempting to add a tx to the

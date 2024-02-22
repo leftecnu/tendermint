@@ -6,16 +6,16 @@ import (
 	"sync"
 	"sync/atomic"
 
-	abci "github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/config"
-	"github.com/tendermint/tendermint/libs/clist"
-	"github.com/tendermint/tendermint/libs/log"
-	tmmath "github.com/tendermint/tendermint/libs/math"
-	tmsync "github.com/tendermint/tendermint/libs/sync"
-	"github.com/tendermint/tendermint/mempool"
-	"github.com/tendermint/tendermint/p2p"
-	"github.com/tendermint/tendermint/proxy"
-	"github.com/tendermint/tendermint/types"
+	abci "github.com/leftecnu/tendermint/abci/types"
+	"github.com/leftecnu/tendermint/config"
+	"github.com/leftecnu/tendermint/libs/clist"
+	"github.com/leftecnu/tendermint/libs/log"
+	tmmath "github.com/leftecnu/tendermint/libs/math"
+	tmsync "github.com/leftecnu/tendermint/libs/sync"
+	"github.com/leftecnu/tendermint/mempool"
+	"github.com/leftecnu/tendermint/p2p"
+	"github.com/leftecnu/tendermint/proxy"
+	"github.com/leftecnu/tendermint/types"
 )
 
 // CListMempool is an ordered in-memory pool for transactions before they are

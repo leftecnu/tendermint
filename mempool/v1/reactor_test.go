@@ -12,17 +12,17 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/tendermint/tendermint/abci/example/kvstore"
-	"github.com/tendermint/tendermint/p2p/mock"
+	"github.com/leftecnu/tendermint/abci/example/kvstore"
+	"github.com/leftecnu/tendermint/p2p/mock"
 
-	cfg "github.com/tendermint/tendermint/config"
+	cfg "github.com/leftecnu/tendermint/config"
 
-	"github.com/tendermint/tendermint/libs/log"
-	"github.com/tendermint/tendermint/mempool"
-	"github.com/tendermint/tendermint/p2p"
-	memproto "github.com/tendermint/tendermint/proto/tendermint/mempool"
-	"github.com/tendermint/tendermint/proxy"
-	"github.com/tendermint/tendermint/types"
+	"github.com/leftecnu/tendermint/libs/log"
+	"github.com/leftecnu/tendermint/mempool"
+	"github.com/leftecnu/tendermint/p2p"
+	memproto "github.com/leftecnu/tendermint/proto/tendermint/mempool"
+	"github.com/leftecnu/tendermint/proxy"
+	"github.com/leftecnu/tendermint/types"
 )
 
 const (

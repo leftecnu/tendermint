@@ -21,13 +21,13 @@ import (
 	"golang.org/x/crypto/hkdf"
 	"golang.org/x/crypto/nacl/box"
 
-	"github.com/tendermint/tendermint/crypto"
-	"github.com/tendermint/tendermint/crypto/ed25519"
-	cryptoenc "github.com/tendermint/tendermint/crypto/encoding"
-	"github.com/tendermint/tendermint/libs/async"
-	"github.com/tendermint/tendermint/libs/protoio"
-	tmsync "github.com/tendermint/tendermint/libs/sync"
-	tmp2p "github.com/tendermint/tendermint/proto/tendermint/p2p"
+	"github.com/leftecnu/tendermint/crypto"
+	"github.com/leftecnu/tendermint/crypto/ed25519"
+	cryptoenc "github.com/leftecnu/tendermint/crypto/encoding"
+	"github.com/leftecnu/tendermint/libs/async"
+	"github.com/leftecnu/tendermint/libs/protoio"
+	tmsync "github.com/leftecnu/tendermint/libs/sync"
+	tmp2p "github.com/leftecnu/tendermint/proto/tendermint/p2p"
 )
 
 // 4 + 1024 == 1028 total frame size

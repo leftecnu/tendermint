@@ -3,12 +3,12 @@ package proxy
 import (
 	"fmt"
 
-	abcicli "github.com/tendermint/tendermint/abci/client"
-	"github.com/tendermint/tendermint/abci/example/counter"
-	"github.com/tendermint/tendermint/abci/example/kvstore"
-	"github.com/tendermint/tendermint/abci/types"
-	tmsync "github.com/tendermint/tendermint/libs/sync"
-	e2e "github.com/tendermint/tendermint/test/e2e/app"
+	abcicli "github.com/leftecnu/tendermint/abci/client"
+	"github.com/leftecnu/tendermint/abci/example/counter"
+	"github.com/leftecnu/tendermint/abci/example/kvstore"
+	"github.com/leftecnu/tendermint/abci/types"
+	tmsync "github.com/leftecnu/tendermint/libs/sync"
+	e2e "github.com/leftecnu/tendermint/test/e2e/app"
 )
 
 //go:generate ../scripts/mockery_generate.sh ClientCreator

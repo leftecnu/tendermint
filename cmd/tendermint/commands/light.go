@@ -15,14 +15,14 @@ import (
 
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/tendermint/tendermint/libs/log"
-	tmmath "github.com/tendermint/tendermint/libs/math"
-	tmos "github.com/tendermint/tendermint/libs/os"
-	"github.com/tendermint/tendermint/light"
-	lproxy "github.com/tendermint/tendermint/light/proxy"
-	lrpc "github.com/tendermint/tendermint/light/rpc"
-	dbs "github.com/tendermint/tendermint/light/store/db"
-	rpcserver "github.com/tendermint/tendermint/rpc/jsonrpc/server"
+	"github.com/leftecnu/tendermint/libs/log"
+	tmmath "github.com/leftecnu/tendermint/libs/math"
+	tmos "github.com/leftecnu/tendermint/libs/os"
+	"github.com/leftecnu/tendermint/light"
+	lproxy "github.com/leftecnu/tendermint/light/proxy"
+	lrpc "github.com/leftecnu/tendermint/light/rpc"
+	dbs "github.com/leftecnu/tendermint/light/store/db"
+	rpcserver "github.com/leftecnu/tendermint/rpc/jsonrpc/server"
 )
 
 // LightCmd represents the base command when called without any subcommands

@@ -8,18 +8,18 @@ import (
 
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/tendermint/tendermint/libs/log"
-	tmsync "github.com/tendermint/tendermint/libs/sync"
-	"github.com/tendermint/tendermint/light"
-	lightprovider "github.com/tendermint/tendermint/light/provider"
-	lighthttp "github.com/tendermint/tendermint/light/provider/http"
-	lightrpc "github.com/tendermint/tendermint/light/rpc"
-	lightdb "github.com/tendermint/tendermint/light/store/db"
-	tmstate "github.com/tendermint/tendermint/proto/tendermint/state"
-	rpchttp "github.com/tendermint/tendermint/rpc/client/http"
-	sm "github.com/tendermint/tendermint/state"
-	"github.com/tendermint/tendermint/types"
-	"github.com/tendermint/tendermint/version"
+	"github.com/leftecnu/tendermint/libs/log"
+	tmsync "github.com/leftecnu/tendermint/libs/sync"
+	"github.com/leftecnu/tendermint/light"
+	lightprovider "github.com/leftecnu/tendermint/light/provider"
+	lighthttp "github.com/leftecnu/tendermint/light/provider/http"
+	lightrpc "github.com/leftecnu/tendermint/light/rpc"
+	lightdb "github.com/leftecnu/tendermint/light/store/db"
+	tmstate "github.com/leftecnu/tendermint/proto/tendermint/state"
+	rpchttp "github.com/leftecnu/tendermint/rpc/client/http"
+	sm "github.com/leftecnu/tendermint/state"
+	"github.com/leftecnu/tendermint/types"
+	"github.com/leftecnu/tendermint/version"
 )
 
 //go:generate ../scripts/mockery_generate.sh StateProvider
